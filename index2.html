@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name=viewport content='width=300'>
+</head>
+
+<body onload="doOnLoad()">
+
+<!DOCTYPE html>
+<html>
+<style>
+            .block {
+                  display: block;
+                  width: 100%;
+                  border: none;
+                  background-color: #04AA6D;
+                  color: white;
+                  padding: 14px 28px;
+                  font-size: 16px;
+                  cursor: pointer;
+                  text-align: center;
+            }
+            .sbsblock {
+                  width: 49%;
+                  border: none;
+                  background-color: #cebc1a;
+                  color: white;
+                  padding: 14px 28px;
+                  font-size: 16px;
+                  cursor: pointer;
+                  text-align: center;
+            }
+            .sbsblock:hover {
+                  background-color: #ddd;
+                  color: black;
+            }
+
+            .block:hover {
+                  background-color: #ddd;
+                  color: black;
+            }
+
+            .failure_message {
+                  color: red;
+            }
+
+            .success_message {
+                  color: green;
+            }
+
+</style>
+
+<body>
+
+<fieldset>
+    <legend>Interact with rentals endpoint</legend>
+    <button class="block" onclick="sendInspectionCompleted()">Post Inspection Completed</button>
+    <div id="inspection_status" class='success_message'></div>
+    <div id="inspection_status_failure" class='failure_message'></div>
+</fieldset>
+
+<fieldset>
+    <legend>Current token</legend>
+    <div id='token'>loading authentication token...</div>
+</fieldset>
+</br>
+<fieldset>
+    <legend>url params received from app</legend>
+    <div id='params'></div>
+</fieldset>
+</body>
+<script>
+            document.getElementById('token').innerHTML = "my_fake_token"
+  
+            var urlParams;
+      
+            function parseUrlParams() {
+                  var match,
+                        pl = /\+/g,  // Regex for replacing addition symbol with a space
+                        search = /([^&=]+)=?([^&]*)/g,
+                        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+                        query = window.location.search.substring(1);
+
+                  urlParams = {};
+                  while (match = search.exec(query))
+                        urlParams[decode(match[1])] = decode(match[2]);
+            }
+
+            function doOnLoad() {
+                  parseUrlParams();
+                  document.getElementById('params').innerHTML = JSON.stringify(urlParams, null, "</br>");
+                  askTokenAsync();
+            }
+
+            function success() {
+                  document.getElementById('success_message_to_native').innerHTML = "SUCCESS";
+                  sendSuccessMessage()
+            }
+
+            function sendInspectionCompleted() {
+                  var xhr = new XMLHttpRequest()
+                  xhr.open("POST", "https://3mm4tgpg10.execute-api.us-east-1.amazonaws.com/dev/reportTriggeredWebView");
+                  xhr.setRequestHeader("Accept", "application/json");
+                  xhr.setRequestHeader("Content-Type", "application/json");
+                  xhr.setRequestHeader("X-Via-Driver-Auth", "my_fake_token");
+                  xhr.setRequestHeader("x-via-city-id", 12;
+                  xhr.onreadystatechange = function () {
+                        if (xhr.readyState === 4) {
+                              if (xhr.status === 200) {
+                                    document.getElementById('inspection_status_failure').innerHTML = "";
+                                    document.getElementById('inspection_status').innerHTML = xhr.responseText;
+                              } else {
+                                    document.getElementById('inspection_status').innerHTML = "";
+                                    document.getElementById('inspection_status_failure').innerHTML = "Error: " + xhr.status + " " + xhr.statusText;
+                              }
+                        }
+                  };
+                  var data = {
+                        city_id: parseInt(urlParams["city_id"]),
+                        driver_id: parseInt(urlParams["driver_id"]),
+                        tenant_id: urlParams["tenant_id"]
+                  }
+                  xhr.send(JSON.stringify(data));
+            }
+
+</script>
+</html>
+</body>
+
+</html>
