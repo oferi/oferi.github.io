@@ -105,7 +105,8 @@
                   xhr.setRequestHeader("Accept", "application/json");
                   xhr.setRequestHeader("content-type", "application/json");
                   xhr.setRequestHeader("x-via-driver-auth", "eyJraWQiOiJRcFJ2eWw5dEtBY05PWm9cLzVyMnFjdFV1VEx1Z0lkWnBsUzIrUUlWVFA3az0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxNTcyYjk4OS1hZmQ3LTQxOTEtYjNkZC1iYTk1ODI3NWZjN2EiLCJhdWQiOiIyY2QzNmZ2OHV1Z2ZkMmxoY2wxcnM1MGFhbCIsImN1c3RvbTpkcml2ZXJfaWQiOiIyIiwiY3VzdG9tOmNpdHlfaWQiOiIxIiwiZXZlbnRfaWQiOiI2NjI3OTI4NC00YTM1LTRhNTMtYTgxYi02NDRkMDVhMGJiMDYiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTY2MTIwNDEwNCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfSER6OHFOdjhkIiwiY29nbml0bzp1c2VybmFtZSI6IjE1NzJiOTg5LWFmZDctNDE5MS1iM2RkLWJhOTU4Mjc1ZmM3YSIsImV4cCI6MTY2MTIwNzcwNCwiaWF0IjoxNjYxMjA0MTA0fQ.OvdJzlsuz9L9aDuXXOuYb5b0DzjZmnrQF3xjeUkS-PiFWFYD1mfyTSuchE8nBxvLTwA9peaP7AFgkgz5WBbsDbji4ABtmYrFg5rydsZzSvQDpqLKAXdtW53_QGN606RqJIPR3UGlIl91WapN4scgfDZqnfNyzRUnOV9mVj7hc84faJ_L9Otxh-oxs3MNY_1e1R3YVvvdrS8wTsG_e1yomZGLOCiPNKXsM8Fnaz1NDSOTKE5h4ma7kSHVAJvQcQq35fNwk22jAntzKDWatHakISIpICWE3XiNXjawb50gkXhwNtojHF8VGyLX1IjpTiXmIEDJEqdYfiLkdTet-AoVDA");
-                  xhr.onreadystatechange = function () {
+                  xhr.setRequestHeader("x-via-city-id", 1);
+                xhr.onreadystatechange = function () {
                         if (xhr.readyState === 4) {
                               if (xhr.status === 200) {
                                     document.getElementById('inspection_status_failure').innerHTML = "";
