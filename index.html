@@ -62,8 +62,8 @@
 </fieldset>
 
 <fieldset>
-    <legend>Current token</legend>
-    <div id='token'>loading authentication token...</div>
+    survey url: <input type="text" id="surveyUrl">"https://3mm4tgpg10-vpce-092106c4bc39ec7b3.execute-api.us-east-1.amazonaws.com/dev/reportTriggeredWebView</input><br><br>
+    token: <input type="text" id="cognitoToken"/><br><br>
 </fieldset>
 </br>
 <fieldset>
@@ -101,11 +101,11 @@
 
             function sendInspectionCompleted() {
                   var xhr = new XMLHttpRequest()
-                  xhr.open("POST", "https://3mm4tgpg10-vpce-092106c4bc39ec7b3.execute-api.us-east-1.amazonaws.com/dev/reportTriggeredWebView");
-                  //xhr.open("POST", "https://3mm4tgpg10.execute-api.us-east-1.amazonaws.com/dev/reportTriggeredWebView")
+                  
+                  xhr.open("POST", document.getElementById("surveyUrl").value);
                   xhr.setRequestHeader("Accept", "application/json");
                   xhr.setRequestHeader("content-type", "application/json");
-                  xhr.setRequestHeader("X-Via-Driver-Auth", "eyJraWQiOiJNZ1MxTUhMTjFOTmpcL1RrZWFGZTBrTjAxZTEyeFBLZ3Y4OERLMDJCMTVSMD0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwZmZlZTM1ZC00YWI2LTQ3YjctYjJlNS04ZGNkMTc5NjIwZGEiLCJhdWQiOiIxbHY1dnAwbmk0dGFta2lzZWlxbGkyMDBubiIsImN1c3RvbTpkcml2ZXJfaWQiOiIxMSIsImN1c3RvbTpjaXR5X2lkIjoiOTgiLCJldmVudF9pZCI6ImE2ZDFiOGM5LTQ0MjYtNGY4OS1iN2NlLWYyYzU0ZDdmMDYwMiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjYyMjc4Mzg5LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9lQzVuemNpV00iLCJjb2duaXRvOnVzZXJuYW1lIjoiMGZmZWUzNWQtNGFiNi00N2I3LWIyZTUtOGRjZDE3OTYyMGRhIiwiZXhwIjoxNjYyMjgxOTg5LCJpYXQiOjE2NjIyNzgzODl9.gmrQo88qfqzDMI9DtRMoB6xD8QYnjkDaRJzrhSxobwJuBlypLatLEVfLyvzUHbcOcahu9mRg7XltK6BOw-tRqyRm1x38q53Y2y38aAaPCQmVkIJyQkSbGvH91sDDCK6_e1KrIxVGauivlQ45jyL7yUxJkcbD5Gc7juW6RwyMvXEhCNIJZiDb-CdDqhuVKEfuGy3HgXfBnHXQQWstk8_UOFv9GyjlrXfvo-A3FhlJrj2p-vSdE4S7VEG5cIYaE7kX2AkMOt2eqSm3cqmjpMVTKvaPFS1OfNNr8lqA9SV3Dsydsp9mW0olLD74YXry84RFOEq-crJSVOV0Fctpy50ECQ");
+                  xhr.setRequestHeader("X-Via-Driver-Auth", document.getElementById("cognitoToken").value));
                   //xhr.setRequestHeader("x-via-city-id", 1);
                 xhr.onreadystatechange = function () {
                         if (xhr.readyState === 4) {
