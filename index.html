@@ -106,7 +106,7 @@
                   xhr.open("POST", document.getElementById("surveyUrl").value);
                   xhr.setRequestHeader("Accept", "application/json");
                   xhr.setRequestHeader("content-type", "application/json");
-                  xhr.setRequestHeader("X-Via-Driver-Auth", document.getElementById("cognitoToken").value));
+                  xhr.setRequestHeader("X-Via-Driver-Auth", document.getElementById("cognitoToken").value);
                   //xhr.setRequestHeader("x-via-city-id", 1);
                 xhr.onreadystatechange = function () {
                         if (xhr.readyState === 4) {
