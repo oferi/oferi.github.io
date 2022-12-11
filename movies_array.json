@@ -1,7 +1,7 @@
 [  
    {  
       "id":"1",
-      "icon":"http://velmm.com/images/bottom_navigationview/coco.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Coco", 
       "message":"very nice movie!",
       "time" : "12:12",
@@ -10,7 +10,7 @@
    },
    {  
       "id":"2",
-      "icon":"http://velmm.com/images/bottom_navigationview/terminator_2.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Terminator 2: Judgment Day 3D",
       "message":"very nice movie!",
       "time" : "12:12",
@@ -18,7 +18,7 @@
    },
    {  
       "id":"3",
-      "icon":"http://velmm.com/images/bottom_navigationview/dunkirk.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Dunkirk",
       "message":"very nice movie!",
       "time" : "12:12",
@@ -26,12 +26,12 @@
    },
    {  
       "id":"4",
-      "icon":"http://velmm.com/images/bottom_navigationview/the_salesman.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"The Salesman"
    },
    {  
       "id":"5",
-      "icon":"http://velmm.com/images/bottom_navigationview/lion.png",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Lion",
       "message":"very nice movie!",
       "time" : "12:12",
@@ -39,12 +39,12 @@
    },
    {  
       "id":"6",
-      "icon":"http://velmm.com/images/bottom_navigationview/star_war.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Star Wars: The Last Jedi"
    },
    {  
       "id":"7",
-      "icon":"http://velmm.com/images/bottom_navigationview/thor_ragnarok.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Thor: Ragnarok",
       "message":"very nice movie!",
       "time" : "12:12",
@@ -52,7 +52,7 @@
    },
    {  
       "id":"8",
-      "icon":"http://velmm.com/images/bottom_navigationview/blade_runner_2049.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Blade Runner 2049",
       "message":"very nice movie!",
       "time" : "12:12",
@@ -60,7 +60,7 @@
    },
    {  
       "id":"9",
-      "icon":"http://velmm.com/images/bottom_navigationview/borg_mcenroe.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Borg McEnroe",
       "message":"very nice movie!",
       "time" : "12:12",
@@ -68,7 +68,7 @@
    },
    {  
       "id":"10",
-      "icon":"http://velmm.com/images/bottom_navigationview/wonder.jpg",
+      "icon":"https://i.imgur.com/tGbaZCY.jpg",
       "name":"Wonder",
       "message":"very nice movie!",
       "time" : "12:12",
