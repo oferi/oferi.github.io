@@ -1,1 +1,32 @@
-<h1> hellow from mock<h1> 
+<html> 
+  <body> 
+    
+<fieldset>
+    <legend>url params received from app</legend>
+    <div id='params'></div>
+</fieldset>
+</body>
+  
+<script>
+            var urlParams;
+      
+            function parseUrlParams() {
+                  var match,
+                        pl = /\+/g,  // Regex for replacing addition symbol with a space
+                        search = /([^&=]+)=?([^&]*)/g,
+                        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+                        query = window.location.search.substring(1);
+
+                  urlParams = {};
+                  while (match = search.exec(query))
+                        urlParams[decode(match[1])] = decode(match[2]);
+            }
+
+            function doOnLoad() {
+                  parseUrlParams();
+                  document.getElementById('params').innerHTML = JSON.stringify(urlParams, null, "</br>");
+            }
+   doOnLoad()
+  
+  </script> 
+  </html>
