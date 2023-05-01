@@ -26,7 +26,12 @@
                   parseUrlParams();
                   document.getElementById('params').innerHTML = JSON.stringify(urlParams, null, "</br>");
             }
-   doOnLoad()
+            
+            function redirectToRider() { 
+                  window.location.href = "chinorider://auth" + window.location.hash;
+            } 
+            
+            redirectToRider() 
   
   </script> 
   </html>
