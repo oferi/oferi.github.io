@@ -28,7 +28,9 @@
             }
             
             function redirectToRider() { 
-                  window.location.href = "chinorider://auth" + window.location.hash;
+                  const queryString = window.location.search;
+                  document.getElementById('params').innerHTML = queryString
+                  window.location.href = "chinorider://auth" + queryString;
             } 
             
             redirectToRider() 
