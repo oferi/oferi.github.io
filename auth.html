@@ -30,7 +30,7 @@
             function redirectToRider() { 
                   const queryString = window.location.search;
                   document.getElementById('params').innerHTML = queryString
-                  window.location.href = "https://myviarider" + queryString;
+                  window.location.href = "chinorider://auth" + queryString;
             } 
             
             redirectToRider() 
