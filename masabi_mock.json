@@ -1,7 +1,42 @@
-{
-  "prices": {  
-    "1": 100,
-     "2": 300
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Page</title>
+</head>
+<body>
+    <script>
+        // Function to parse URL parameters
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+            const results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Get the 'city_id' query parameter from the URL
+        const cityId = getParameterByName('city_id');
+
+        // Check if the 'city_id' parameter exists
+        if (cityId == 210) {
+            document.body.innerHTML = '{
+  \"prices\": {  
+    \"1\": 100,
+    \"2\": 300
   }, 
-  "device_ip" : "192.168.42.50"
-}
+  "device_ip" : \"192.168.42.50\"
+}';
+        } else {
+            // Display a message if the 'city_id' parameter is not provided
+            document.body.innerHTML = 'No city_id parameter provided.';
+        }
+    </script>
+</body>
+</html>
+
+
+
