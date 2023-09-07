@@ -28,7 +28,7 @@
     \"1\": 100,
     \"2\": 300
   }, 
-  "device_ip" : \"192.168.42.50\"
+  \"device_ip\" : \"192.168.42.50\"
 }';
         } else {
             // Display a message if the 'city_id' parameter is not provided
