@@ -28,7 +28,7 @@
                 },
                 device_ip : "192.168.42.50"
             };
-            document.body.innerHTML = res;
+            document.body.innerHTML = JSON.stringify(res);
         } else {
             var res = { 
                 prices: {
@@ -37,7 +37,7 @@
                 },
                 device_ip : "192.168.200.205"
             };
-            document.body.innerHTML = res;
+            document.body.innerHTML = JSON.stringify(res);
         }
     </script>
 </body>
