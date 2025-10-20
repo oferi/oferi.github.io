@@ -1,1158 +1,260 @@
 [
-    {
-        "results": [
-            {
-                "data": {
-                    "response": {
-                        "styleSnapshots": [
-                            {
-                                "name": "projects/787848130312/clientStyles/c71d0e0d04f1c74b/styleSnapshots/1743519497772915",
-                                "styleSheet": {
-                                    "rules": [
-                                        {
-                                            "featureType": "administrative",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#4b677e",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.land_cover",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#eee8dd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.water",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#e1eefd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.water",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#e1eefd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.water",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#e1eefd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.emergency.hospital",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.outdoor_area_or_point",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.outdoor_area_or_point.park",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.outdoor_area_or_point.sports_complex",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.services",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.transit_poi.airport",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "geometry.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "labels.icon",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.rail",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road",
-                                            "elementType": "geometry.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#9dbee3",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#4b677e",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.arterial",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.high_priority",
-                                            "elementType": "geometry.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#9dbee3",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.local_or_overpass",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": 17
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.terminal",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": 17
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "sdkMapVariant": "SDK_MAP_VARIANT_UNSPECIFIED",
-                                    "schemaConfig": {
-                                        "schemaVersionV1": null,
-                                        "schemaVersionV3": {
-                                            "taxonomyVersion": 6,
-                                            "compatibilityVersion": 0
-                                        },
-                                        "schemaVersion": "schemaVersionV3"
-                                    },
-                                    "poiBoost": null,
-                                    "createTime": null,
-                                    "updateTime": null,
-                                    "publishTime": null,
-                                    "features": [
-                                        "FEATURE_ICONIC_ICONS",
-                                        "FEATURE_FLATTEN_BUILDINGS"
-                                    ],
-                                    "paintingHint": null,
-                                    "previewOptions": {
-                                        "scale": 0,
-                                        "viewport": {
-                                            "centerLat": 47.619357193577812,
-                                            "centerLng": -122.30814231507486,
-                                            "zoom": 16
-                                        }
-                                    },
-                                    "experiments": {
-                                        "experiments": [
-                                            "EXPERIMENT_ENABLE_BASEMAP_COLORS2",
-                                            "EXPERIMENT_FIX_POLYLINE_WIDTH_MATH"
-                                        ]
-                                    },
-                                    "backgroundHint": null
-                                },
-                                "parentVersion": "0",
-                                "publishedStatus": "PUBLISHING_STATUS_DRAFT",
-                                "paintingHint": null,
-                                "presetIds": [],
-                                "systemEvent": null
-                            },
-                            {
-                                "name": "projects/787848130312/clientStyles/c71d0e0d04f1c74b/styleSnapshots/1743519063304815",
-                                "styleSheet": {
-                                    "rules": [
-                                        {
-                                            "featureType": "administrative",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#4b677e",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.land_cover",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#eee8dd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.water",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#e1eefd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.water",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#e1eefd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "land.water",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#e1eefd",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.emergency.hospital",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.outdoor_area_or_point",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.outdoor_area_or_point.park",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.outdoor_area_or_point.sports_complex",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.services",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.transit_poi.airport",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "on",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "geometry.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "labels.icon",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#f6f3f0",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.rail",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": "off",
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road",
-                                            "elementType": "geometry.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road",
-                                            "elementType": "geometry.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#9dbee3",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#4b677e",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.arterial",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.high_priority",
-                                            "elementType": "geometry.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#9dbee3",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.high_priority",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.local_or_overpass",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": 17
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transportation.road.normal_segment.terminal",
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": null,
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": 17
-                                                },
-                                                {
-                                                    "hue": null,
-                                                    "lightness": null,
-                                                    "saturation": null,
-                                                    "gamma": null,
-                                                    "invertLightness": null,
-                                                    "visibility": null,
-                                                    "color": "#ffffff",
-                                                    "weight": null,
-                                                    "textScale": null,
-                                                    "zoom": null
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "sdkMapVariant": "SDK_MAP_VARIANT_UNSPECIFIED",
-                                    "schemaConfig": {
-                                        "schemaVersionV1": null,
-                                        "schemaVersionV3": {
-                                            "taxonomyVersion": 6,
-                                            "compatibilityVersion": 0
-                                        },
-                                        "schemaVersion": "schemaVersionV3"
-                                    },
-                                    "poiBoost": null,
-                                    "createTime": null,
-                                    "updateTime": null,
-                                    "publishTime": null,
-                                    "features": [
-                                        "FEATURE_ICONIC_ICONS",
-                                        "FEATURE_FLATTEN_BUILDINGS"
-                                    ],
-                                    "paintingHint": null,
-                                    "previewOptions": {
-                                        "scale": 0,
-                                        "viewport": {
-                                            "centerLat": 47.619709742783719,
-                                            "centerLng": -122.30835152736985,
-                                            "zoom": 19
-                                        }
-                                    },
-                                    "experiments": {
-                                        "experiments": [
-                                            "EXPERIMENT_ENABLE_BASEMAP_COLORS2",
-                                            "EXPERIMENT_FIX_POLYLINE_WIDTH_MATH"
-                                        ]
-                                    },
-                                    "backgroundHint": null
-                                },
-                                "parentVersion": "0",
-                                "publishedStatus": "PUBLISHING_STATUS_PUBLISHED",
-                                "paintingHint": null,
-                                "presetIds": [],
-                                "systemEvent": null
-                            }
-                        ]
-                    }
-                },
-                "path": []
-            }
-        ],
-        "responseContext": {
-            "eti": "AR5LRhCyC0CMir/EThlaPXoWBiD92niEz39XPsMk9b/aRV8bq65sX7+IguznZBUK+9QPKGF1Lp1DTNRrBmmC32/xXyAZm+YI0GVfNA7JmIQ+ew/Rob1rm9i+7sXIX/ODRBXfRLRAs+1gk+ZD1LfWQzlt/aatGXq9MKG3l+DrONPehr/u9/WhsM9cG811Axm7PaFVhLw="
-        }
-    }
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e3e3e3"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.man_made",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#878787"
+      },
+      {
+        "visibility": "on"
+      },
+      {
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.natural",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#878787"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.attraction",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.business",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.government",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.medical",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "color": "#e68484"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "color": "#9ac69b"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.place_of_worship",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.school",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.sports_complex",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#dadada"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "color": "#596c91"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#c9c9c9"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  }
 ]
