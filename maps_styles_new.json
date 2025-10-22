@@ -3,7 +3,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#dad7d7"
+        "color": "#e6e5e0"
       }
     ]
   },
@@ -187,10 +187,13 @@
   },
   {
     "featureType": "road.highway",
-    "elementType": "geometry",
+    "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#dadada"
+        "color": "#cdcbc6"
+      },
+      {
+        "visibility": "on"
       }
     ]
   },
